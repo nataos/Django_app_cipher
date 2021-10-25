@@ -1,0 +1,46 @@
+#container
+{
+    background-color:AliceBlue;
+    width:100%;
+    height:600px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:150px;
+    text-align:center;
+    font-size:18px;
+
+}
+
+#form{
+    padding-top:20px;
+    text-align:center;
+}
+h2{
+    font-weight:bold;
+    color:CornflowerBlue;
+    text-align:center;
+    padding-top:30px;
+}
+#button{
+    background-color:CornflowerBlue;
+    height:30px;
+    width:200px;
+    font-size:16px;
+    color:white;
+    margin-left:0px;
+    font-weight:bold;
+    border:None;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+
+
+
+a{
+    font-size:35px;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration:None;
+    color:CornflowerBlue;
+}

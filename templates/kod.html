@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kod</title>
+    <link rel="stylesheet" href="{% static 'arkusz.css' %}">
+</head>
+<body>
+    <div id="container">
+        <h2>Twój zaszyfrowany tekst</h2>
+
+            {{ password.cipher }}
+        </br></br>
+        </br></br>
+
+
+    <a href="{% url 'odszyfruj' password.id %}">Odszyfruj ! </a>
+    </div>
+</body>
+</html>

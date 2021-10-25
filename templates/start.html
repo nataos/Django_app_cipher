@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'arkusz.css' %}">
+</head>
+<body>
+    <div id="container">
+        <h2>Proszę podać tekst do zaszyfrowania</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div id="form">{{ password_form.text }}</div>
+        <button id='button' type="submit">Zaszyfruj</button>
+
+    </form>
+        <h2>{{ p }}</h2>
+    </div>
+
+</body>
+</html>
